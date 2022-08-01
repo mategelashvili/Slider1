@@ -1,0 +1,33 @@
+.slider {
+  max-width: 800px;
+  height: 700px;
+background-position: center;
+ width: 100%;
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ display: flex;
+ margin: 0 auto;
+ position: relative;
+ border-radius: 50%;
+ 
+ 
+}
+ body{
+    background-color: black;
+    display: flex;
+ }
+.prew, .next{
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    
+    cursor: pointer;
+    position: absolute;
+    top: 300px;
+}
+.next{
+ 
+    right: 15%;
+}
+.prew{
+    left: 15%;
+}
