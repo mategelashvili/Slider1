@@ -1,9 +1,9 @@
 let imgs = [
   "./img/fer.jpg",
   "./img/bug.jpg",
-  "/img/lam.jpg",
-  "/img/mac.jpg",
-  "/img/pag.jpg",
+  "./img/lam.jpg",
+  "./img/mac.jpg",
+  "./img/pag.jpg",
 ];
 let caunt = 0;
 let slider = document.querySelector(".slider");
